@@ -1,0 +1,8 @@
+        <input
+          type="button"
+          value="day"
+          onclick="
+        night(this);"
+        />
+        <img src="./손 흔들기.png" alt="손" width="500px" height="500px" />
+    

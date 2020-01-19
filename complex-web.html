@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Result</title>
+    <link rel="stylesheet" href="web-styling.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+      name="Indie Flower"
+    />
+    <script src="./web-function.js"></script>
+    <script>
+      function ajax(name, html) {
+        fetch(name).then(function(response) {
+          response.text().then(function(text) {
+            document.querySelector(html).innerHTML = text;
+          });
+        });
+      }
+      ajax("list2", ".nav ol");
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>Result</h1>
+    </header>
+    <div class="main">
+      <div class="nav">
+        <ol></ol>
+      </div>
+      <div class="main-content"></div>
+    </div>
+    <footer>E-Mail : xxxxxxx.naver.com Phone-Number: 010-xxxx-xxxx</footer>
+  </body>
+</html>

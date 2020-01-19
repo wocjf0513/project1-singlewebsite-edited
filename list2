@@ -1,0 +1,6 @@
+
+          <li><a href='#!web' onclick="ajax('web','.main-content')">Home Page</a></li>
+          <li><a href='#!berners' onclick="ajax('berners','.main-content')">Tim Berners-Lee</a></li>
+          <li><a href='#!psots' onclick="ajax('posts','.main-content')">Impressive posts</a></li>
+          <li><a href='#!night' onclick="ajax('night','.main-content')">Night and Day Mode</a></li>
+          <li><a href='#!lotto' onclick="ajax('lotto','.main-content')">Made Lotto Numbers</a></li>
